@@ -1,55 +1,93 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+<img src="IMGUR-LINK-HERE" alt="osTicket logo" width="300px"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
+This project walks through the full **installation and configuration** of the open-source ticketing system **osTicket** on a Windows 10 Virtual Machine hosted in Microsoft Azure.
 
-<h2>Video Demonstration</h2>
+---
 
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
+<h2>📸 Project Overview</h2>
 
-<h2>Environments and Technologies Used</h2>
+**Files needed for installation (Prerequisites Folder)**  
+<p align="center">
+<img src="https://imgur.com/a/qaKgxB5" alt="Prerequisite Files" width="80%"/>
+</p>
 
-- Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+**osTicket displaying missing prerequisites before installation**  
+<p align="center">
+<img src="https://imgur.com/a/qaKgxB5" alt="osTicket Missing Extensions" width="80%"/>
+</p>
+
+**osTicket setup & admin account creation page**  
+<p align="center">
+<img src="IMGUR-LINK-HERE" alt="osTicket Setup Page" width="80%"/>
+</p>
+
+**IIS Manager installed and ready**  
+<p align="center">
+<img src="IMGUR-LINK-HERE" alt="IIS Manager" width="80%"/>
+</p>
+
+---
+
+<h2>🧰 Environments and Technologies Used</h2>
+
+- Microsoft Azure (Virtual Machines)
+- Remote Desktop Protocol (RDP)
 - Internet Information Services (IIS)
+- PHP 7.3.8
+- MySQL 5.5.62
+- HeidiSQL
 
-<h2>Operating Systems Used </h2>
+---
 
-- Windows 10</b> (21H2)
+<h2>💻 Operating System Used</h2>
 
-<h2>List of Prerequisites</h2>
+- <b>Windows 10 Pro</b> (21H2)
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+---
 
-<h2>Installation Steps</h2>
+<h2>📝 Step 1: Create the Virtual Machine in Azure</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Create a Windows 10 VM with:
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- **Name:** osticket-vm  
+- **vCPUs:** 4  
+- **Username:** labuser  
+- **Password:** osTicketPassword1!  
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Connect via Remote Desktop.
+
+---
+
+<h2>📝 Step 2: Download Installation Files</h2>
+
+Inside the VM:
+
+1. Download **osTicket-Installation-Files.zip**  
+2. Unzip it → folder becomes **osTicket-Installation-Files**
+
+---
+
+<h2>📝 Step 3: Enable IIS + CGI</h2>
+
+Enable the following in Windows Features:
+
+- Internet Information Services
+- **CGI**
+- Application Development Features
+- IIS Management Console
+
+---
+
+<h2>📝 Step 4: Install Prerequisites</h2>
+
+From the installation folder:
+
+✔ PHP Manager for IIS  
+✔ Rewrite Module  
+
+Create:
+
