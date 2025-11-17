@@ -12,22 +12,22 @@ This project walks through the full **installation and configuration** of the op
 
 **Files needed for installation (Prerequisites Folder)**  
 <p align="center">
-<img src="https://imgur.com/a/qaKgxB5" alt="Prerequisite Files" width="80%"/>
+<img src="https://i.imgur.com/J6Go1Bg.png" alt="Prerequisite Files" width="80%"/>
 </p>
 
 **osTicket displaying missing prerequisites before installation**  
 <p align="center">
-<img src="https://imgur.com/a/qaKgxB5" alt="osTicket Missing Extensions" width="80%"/>
+<img src="https://i.imgur.com/p6cuJsC.png" alt="osTicket Missing Extensions" width="80%"/>
 </p>
 
 **osTicket setup & admin account creation page**  
 <p align="center">
-<img src="IMGUR-LINK-HERE" alt="osTicket Setup Page" width="80%"/>
+<img src="https://i.imgur.com/GVdsifL.png" alt="osTicket Setup Page" width="80%"/>
 </p>
 
 **IIS Manager installed and ready**  
 <p align="center">
-<img src="IMGUR-LINK-HERE" alt="IIS Manager" width="80%"/>
+<img src="https://i.imgur.com/1D4O9sM.png" alt="IIS Manager" width="80%"/>
 </p>
 
 ---
