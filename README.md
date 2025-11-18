@@ -67,7 +67,7 @@ From the installation folder:
 ✔ Rewrite Module  
 
 <p align="center">
-<img src="https://i.imgur.com/p6cuJsC.png" alt="Prerequisite Files" width="80%"/>
+<img src="https://i.imgur.com/J6Go1Bg.png" alt="Prerequisite Files" width="80%"/>
 </p>
 
 ---
