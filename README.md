@@ -97,3 +97,5 @@ and a second seperate Email from the first Email, password, username.
 <p align="center">
 <img src="https://i.imgur.com/GVdsifL.png" alt="osTicket Setup Page" alt="Prerequisite Files" width="80%"/>
 </p>
+
+here is the link to the next set of steps -> [osTicket: Post-Installation Configuration](https://github.com/BerrickPhilbin/post-install-config)
