@@ -1,7 +1,6 @@
 <p align="center">
-<img src="https://i.imgur.com/VStvYjF.png" alt="osTicket logo" width="300px"/>
+  <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo" />
 </p>
-
 <h1>osTicket - Prerequisites and Installation</h1>
 
 This project walks through the full **installation and configuration** of the open-source ticketing system **osTicket** on a Windows 10 Virtual Machine hosted in Microsoft Azure.
@@ -33,6 +32,7 @@ Connect via Remote Desktop.
 <p align="center">
 <img src="https://i.imgur.com/G4MkTgz.png" alt="Prerequisite Files" width="80%"/>
 </p>
+
 ---
 
 <h2>📝 Step 2: Download Installation Files</h2>
@@ -44,6 +44,7 @@ Inside the VM:
 <p align="center">
 <img src="https://i.imgur.com/J6Go1Bg.png" alt="Prerequisite Files" width="80%"/>
 </p>
+
 ---
 
 <h2>📝 Step 3: Enable IIS + CGI</h2>
@@ -57,6 +58,7 @@ Enable the following in Windows Features:
 <p align="center">
 <img src="https://i.imgur.com/GzpH3fk.png" alt="Prerequisite Files" width="80%"/>
 </p>
+
 ---
 
 <h2>📝 Step 4: Install Prerequisites</h2>
@@ -98,4 +100,7 @@ and a second seperate Email from the first Email, password, username.
 <img src="https://i.imgur.com/GVdsifL.png" alt="osTicket Setup Page" alt="Prerequisite Files" width="80%"/>
 </p>
 
-Here is the link to the next set of steps -> [osTicket: Post-Installation Configuration](https://github.com/BerrickPhilbin/post-install-config)
+---
+
+Here is the link to the next set of steps →  
+👉 **[osTicket: Post-Install Configuration](https://github.com/BerrickPhilbin/post-install-config)
