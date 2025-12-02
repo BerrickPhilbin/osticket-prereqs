@@ -58,8 +58,7 @@ Create a Windows 10 VM in Azure:
 After deployment:  
 1. Copy the VM's **public IP**  
 2. Open **Remote Desktop Connection**  
-3. Log in with the credentials above  
-
+3. Log in with your set credentials
 <p align="center">
   <img src="https://i.imgur.com/G4MkTgz.png" width="80%" alt="VM Setup" />
 </p>
